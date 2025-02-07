@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>table with list</title>
+        <style>
+            table{
+                height:auto;
+                width: auto;
+            }
+            table,tr,td{
+                border: 1px solid black;
+            }
+            tr{
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td>Male Students</td>
+            </tr>
+            <tr>
+                <td>
+                    <ol type="A">
+                        <li>Sabul</li>
+                        <li>Akash</li>
+                        <li>Suhan</li>
+                    </ol>
+                </td>
+            </tr>
+            <tr>
+                <td>Female Students</td>
+            </tr>
+            <tr>
+                <td>
+                    <ul type="square">
+                        <li>Lokki</li>
+                        <li>Sumaira</li>
+                        <li>Rabeya</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
