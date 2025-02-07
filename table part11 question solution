@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head><title><li>table with hyperlink and list</title>
+        <style>
+            table,td{
+                border: 2px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td>Favourite websites</td>
+            </tr>
+            <tr>
+                <td>
+                    <ol>
+                        <li><a href="https://www.google.com" target="_blank">Google</a></li>
+                        <li><a href="https://www.yahoo.com" target="_blank">Yahoo</a></li>
+                        <li><a href="https://www.studywithanis.com" target="_blank">Study with anis</a></li>
+                    </ol> 
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
