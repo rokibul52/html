@@ -1,0 +1,7 @@
+<!doctype html>
+<html>
+    <head><title>img tag</title><head>
+    <body>
+        <img src="Screenshot (17).png" height="200" border="5" title="Rokibul">
+    </body>
+</html>
