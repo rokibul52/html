@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>table with list,image,hyperlink</title>
+        <style>
+            table,td{
+                border: 2px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <caption>student details</caption>
+            <tr>
+                <td>Rokibul Islam</td>
+                <td rowspan="4">
+                    <a href="https://www.facebook.com/Rokibul9696"><img src="https://i.postimg.cc/yxk2GVGn/chonchol.png" height="200" width="200"/></a>
+                </td>
+            </tr>
+            <tr>
+                <td>BSc in Software Engineering</td>
+            </tr>
+            <tr>
+                <td>01522117752</td>
+            </tr>
+            <tr>
+                <td>My favourite country
+                    <p>
+                        <ol>
+                            <li>Bangladesh</li>
+                            <li>Saudi Arabia</li>
+                            <li>Uk</li>
+                        </ol>
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
