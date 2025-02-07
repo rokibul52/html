@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>my progam</title>
+    </head>\
+    <body>
+        <p>&copy;copyright</p>   <!Entity is here>
+        I am &nbsp;&nbsp;&nbsp;Rokibul Islam<br/>      <!line space>
+        &lt;body&gt;       <! what I print as a body tag>
+        
+        <pre>           <!As like I write ,that is printed>
+            I love you 
+                    From my heart
+            But still I believe
+                    You are a selfish bird.
+        </pre>
+    </body>
+</html>
