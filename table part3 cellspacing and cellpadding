@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <table border="1px" height="50px" width="100px" cellspacing="10px" cellpadding="10">
+            <tr>
+                <td>Rokibul</td>
+                <td>3.48</td>
+                <tr>
+                    <td>Tasnia</td>
+                    <td>3.38</td>
+                </tr>
+            </tr>
+        </table>
+    </body>
+</html>
