@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Accessible Table</title>
+    </head>
+    <body>
+        <header>
+            <h1>HTML Table</h1>
+        </header>
+        <main>
+            <table>
+                <captio>Students Info</captio>
+                <colgroup>
+                    <col span="3" style="background-color: burlywood;"/>
+                </colgroup>
+                <thead>
+                    <tr>
+                       <th scope="col">ID</th> 
+                       <th scope="col">Name</th>
+                       <th scope="col">GPA</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>101</td>
+                        <td>Rokibul</td>
+                        <td>3.48</td>
+                    </tr>
+                    <tr>
+                        <td>102</td>
+                        <td>Roki</td>
+                        <td>3.45</td>
+                    </tr>
+                    <tr>
+                        <td>103</td>
+                        <td>Rony</td>
+                        <td>3.40</td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </main>
+    </body>
+</html>
