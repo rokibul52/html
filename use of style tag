@@ -1,0 +1,9 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Style tag using</title>
+    </head>
+    <body>
+        <h1 style="background-color:red;color:white;font-family: fantasy;">I love my Bangladesh.</h1>
+    </body>
+</html>
