@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Table</title>
+        <style>
+           table,td,th{
+            border: 2px solid black;
+           } 
+           table{
+            border-collapse: collapse;
+            text-align: center;
+            height: 200px;
+            width: 300px;
+           }
+        </style>
+    </head>
+    <body>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th colspan="2">Phone</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>101</td>
+                    <td>Rokibul</td>
+                    <td>015</td>
+                    <td rowspan="3">016</td>
+                </tr>
+                <tr>
+                    <td>102</td>
+                    <td>Roki</td>
+                    <td>017</td>
+                    
+                </tr>
+                <tr>
+                    <td>103</td>
+                    <td>Rony</td>
+                    <td>019</td>
+                    
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
