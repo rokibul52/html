@@ -1,0 +1,8 @@
+<!doctype html>
+<html>
+    <head><title>iframe testing</title><head>
+    <body>
+        <iframe src="https://www.studywithanis.com/" height="200" width="400"></iframe>
+        <iframe src="<iframe width="560" height="315" src="https://www.youtube.com/embed/FwmuhNTrJO4?si=qaFkG96YdE1DB8JJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>"></iframe>
+    </body>
+</html>
