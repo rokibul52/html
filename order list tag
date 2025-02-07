@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Style tag using</title>
+    </head>
+    <body>
+        <h1>Book list</h1>
+        <ol>
+            <li>Chemistry</li>
+            <li>Physics</li>
+        </ol>
+        <h1>Additional book</h1>
+        <ol start="3">
+            <li>Bangla</li>
+            <li>English</li>
+        </ol>
+
+        <h1>Not need</h1>
+        <ol type="i">
+            <li>Hindu</li>
+            <li>Economic</li>
+        </ol>
+
+    </body>
+</html> 
