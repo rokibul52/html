@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head id="top"><title>western warrior gen-z</title>
+    <style>
+        table{
+            height: 200;
+            width: 300;
+            border: 1px solid black;
+            border-spacing: 15;
+        }
+        td,th{
+            border: 1px solid black;
+            padding: 15px;
+        }
+        tr{
+            text-align: center;
+        }
+        table,td,th{
+            border-collapse: collapse;
+        }
+    </style>
+    </head>
+    <body>
+        <h1 align="center">Western Warrior Gen-Z</h1>
+        <p align="center"><img src="download.jpg" height="50" width="50"></p><hr/>
+        <iframe width="560" height="315" src="https://www.google.com" name="iframe"></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/FwmuhNTrJO4?si=8rnZEntuQXbCrXd0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen heigth></iframe>
+        <hr/>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate nunc vel risus malesuada, et tincidunt lorem pretium. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris pharetra commodo vehicula. Cras enim felis, sollicitudin sit amet tellus euismod, egestas interdum ante. Nulla sed orci lobortis, euismod dui non, scelerisque dui. Vestibulum ullamcorper gravida neque quis bibendum. Suspendisse id mi convallis, imperdiet purus non, gravida dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod ultricies magna eu semper. Morbi sit amet tristique neque, in sodales urna. Ut consequat vestibulum erat, in ornare nibh fringilla non. Sed interdum sem tellus, vel pharetra nunc condimentum vel. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+
+            Nunc non ipsum felis. Quisque a ligula pharetra, ultricies velit vel, fermentum dui. Vestibulum hendrerit pretium urna eget dignissim. Ut sed leo vestibulum odio maximus scelerisque at a lacus. Morbi aliquam tellus vel mauris gravida, vel sollicitudin urna ultricies. Phasellus bibendum augue eu mauris malesuada semper. Pellentesque lacinia ligula scelerisque, vulputate elit quis, blandit lorem. Nulla facilisi. Nulla tempor augue quis lectus malesuada, id venenatis massa lobortis. Nullam ut purus nibh. Suspendisse semper viverra purus sit amet hendrerit.
+            
+            Quisque ac efficitur quam. Pellentesque laoreet tempus diam, at volutpat quam viverra quis. Vivamus blandit ipsum in finibus interdum. Duis viverra in magna vitae posuere. Nullam hendrerit imperdiet magna a sodales. Donec eu fringilla nibh, at viverra augue. Vestibulum sed diam dolor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus maximus dolor sit amet finibus scelerisque. Morbi quam quam, congue et turpis vitae, ultrices faucibus est. Integer mi nulla, vehicula in libero et, posuere tristique nunc.
+            
+            Pellentesque eget placerat dolor, sed vehicula libero. Ut at maximus nisi. Sed posuere bibendum ligula vel aliquet. Quisque malesuada viverra leo, et facilisis nibh vestibulum ut. Ut sit amet nibh lectus. Nulla sed porttitor turpis. Praesent luctus, metus eget dignissim ornare, mi nibh euismod est, in fringilla dui ligula ut eros.
+            
+            Cras ac justo ornare, luctus neque pharetra, scelerisque libero. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus tempus luctus arcu, non fermentum turpis commodo id. Nulla mollis ex ac dolor malesuada pulvinar. In euismod elementum dui, a aliquet magna euismod eget. Nulla mattis felis sed condimentum maximus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae semper mauris, sed sodales eros. In nisi leo, tempus a dolor et, pharetra lobortis ex. Aliquam accumsan urna nibh, ac euismod odio dictum sed. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+            <hr/>
+            <table><caption>Student Information</caption>
+                
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Name</th>
+                        <th>GPA</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>101</td>
+                        <td>Rabeya</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>102</td>
+                        <td>Suparna</td>
+                        <td>3.5</td>
+                    </tr>
+                    <tr>
+                        <td>103</td>
+                        <td>Lima</td>
+                        <td>4.89</td>
+                    </tr>
+                </tbody>
+            </table>
+            <hr/>
+            <form>
+                <datalist id="names">
+                    <option value="Rokibul Islam">Rokibul Islam</option>
+                    <option value="Tasnia Jannat">Tasnia Jannat</option>
+                    <option value="Chonchol">Chonchol</option>
+                </datalist>
+                <label>Username:<input type="text" list="names" placeholder="only letters and numbers" required pattern="[a-zA-Z0-9]+"></label>
+               <br/> <label>Password:<input type="password" placeholder="Enter password please" required "></label><br/>
+                <label>Email:<input type="email" placeholder="Enter your email" required "></label><br/>
+                <div>
+                    <label for="religion">Reglion:</label>
+                    <input checked type="checkbox" name="religion" id="Islam" value="Islam">Islam
+                    <input type="checkbox" name="religion" id="Hindu" value="Hindu">Hindu
+                </div><br/>
+                <div>
+                    <label for="Gender">Gender:</label>
+                    <input checked type="radio" name="gender" id="Gender" value="Male">Male
+                    <input checked type="radio" name="gender" id="Female" value="Female">Female
+                </div><br/>
+            </div><br/>
+            <div>
+                <label>Department:</label>
+                <select name="Department">
+                    <option value="SWE">SWE</option>
+                    <option value="CSE" selected>CSE</option>
+                    <option value="LLB">LLB</option>
+                </select>
+            </div><br/>
+        </div><br/>
+        <div>
+            <label for="message">Message:</label><br/>
+            <textarea cols="20" rows="20"></textarea>
+        </div><br/>
+        <div>
+            <input type="submit" value="Register">
+            <input type="reset" value="clear">
+        </div><hr/>
+        <div>
+            <video controls height="200" width="300"><source src="Alan Walker & Ava Max - Alone, Pt. II.mp4"</video>
+            <audio controls><source src="qismat-djjohal-com-aetrim1526026438939-41442-65894.mp3"</audio>
+        
+        </div><hr/>
+        <div>
+            <ol>
+
+           <li> <a href="https://www.facebook.com/Rokibul9696" target="blank">My Facebook profile</a><br/>
+            <li><a href="https://www.youtube.com" target="blank">Youtube</a><br/>
+            <li><a href="" id="#top">goto top</a>
+            </ol>
+        </div>
+            </form>
+            <p>developed by &copy;Md Rokibul Islam Chonchol</p>
+    </body>
+</html>
